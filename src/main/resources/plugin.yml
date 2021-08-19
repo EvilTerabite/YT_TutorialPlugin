@@ -1,0 +1,14 @@
+name: Tutorial
+version: ${project.version}
+main: me.evilterabite.tutorial.Tutorial
+api-version: 1.17
+authors: [ evilterabite ]
+description: Tutorial plugin for Youtube
+website: evilterabite.me
+
+commands:
+  ping:
+    description: Replies pong
+    usage: /ping
+    aliases: [p, pinging]
+
