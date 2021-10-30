@@ -19,7 +19,6 @@ public class PingCommand implements CommandExecutor {
             //Only runs if the sender is a console.
             sender.sendMessage("Console Pong!");
         }
-
         return true;
     }
 }

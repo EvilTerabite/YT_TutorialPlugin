@@ -11,4 +11,10 @@ commands:
     description: Replies pong
     usage: /ping
     aliases: [p, pinging]
+  tutorialreload:
+    description: reloads the plugin.
+    usage: /reload
+  configtest:
+    description: test the config.
+    usage: /configtest
 

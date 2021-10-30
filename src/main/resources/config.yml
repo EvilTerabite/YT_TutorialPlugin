@@ -1,0 +1,6 @@
+
+#Test
+boolean: true
+string: "this is a string"
+double: 1.01
+integer: 5
