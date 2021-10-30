@@ -17,4 +17,8 @@ commands:
   configtest:
     description: test the config.
     usage: /configtest
+  spawn:
+      description: teleports you to spawn.
+  setspawn:
+      description: sets the spawn for the server.
 

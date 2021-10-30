@@ -4,3 +4,12 @@ boolean: true
 string: "this is a string"
 double: 1.01
 integer: 5
+
+spawn:
+  set: false
+  x: 0
+  y: 0
+  z: 0
+  yaw: 0
+  pitch: 0
+  world: null

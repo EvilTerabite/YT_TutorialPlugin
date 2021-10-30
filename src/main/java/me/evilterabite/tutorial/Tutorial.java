@@ -3,6 +3,8 @@ package me.evilterabite.tutorial;
 import me.evilterabite.tutorial.commands.ConfigTestCommand;
 import me.evilterabite.tutorial.commands.PingCommand;
 import me.evilterabite.tutorial.commands.ReloadCommand;
+import me.evilterabite.tutorial.commands.spawn.SetSpawnCommand;
+import me.evilterabite.tutorial.commands.spawn.SpawnCommand;
 import me.evilterabite.tutorial.events.JoinEvent;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.PluginManager;
@@ -27,10 +29,11 @@ public final class Tutorial extends JavaPlugin {
         getCommand("ping").setExecutor(new PingCommand());
         getCommand("tutorialreload").setExecutor(new ReloadCommand());
         getCommand("configtest").setExecutor(new ConfigTestCommand());
+        getCommand("setspawn").setExecutor(new SetSpawnCommand());
+        getCommand("spawn").setExecutor(new SpawnCommand());
 
         //Register Listener
         pluginManager.registerEvents(new JoinEvent(), this);
-
 
         logger.log(Level.INFO, "Hello World!");
     }
